@@ -1,0 +1,14 @@
+{
+  "name": "egaku-test",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Browser mock testing environment",
+  "scripts": {
+    "test": "playwright test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "eslint": "^9.0.0"
+  }
+}

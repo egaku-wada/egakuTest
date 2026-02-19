@@ -401,6 +401,7 @@
       }
 
       state.operator = op;
+      state.current = '0';
       display.expression.textContent = `${formatNumber(state.operand)} ${op}`;
       updateDisplay();
     }
